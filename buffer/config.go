@@ -1,4 +1,4 @@
-package common
+package buffer
 
 type frame_id_t = int32
 type page_id_t = int32
@@ -17,3 +17,4 @@ const (
 	LOG_BUFFER_SIZE  int = ((BUFFER_POOL_SIZE + 1) * PAGE_SIZE)
 	BUCKET_SIZE      int = 50
 )
+
