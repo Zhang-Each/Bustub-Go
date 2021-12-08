@@ -1,11 +1,11 @@
 package common
 
-type frame_id_t = int32
-type page_id_t = int32
-type rxn_id_t = int32
-type lsn_t = int32
-type slot_offset_t = int
-type oid_t = uint16
+type FrameId = int32
+type PageId = int32
+type RxnId = int32
+type Lsn = int32
+type SlotOffset = int
+type Oid = uint16
 
 const (
 	INVALID_PAGE_ID  int = -1

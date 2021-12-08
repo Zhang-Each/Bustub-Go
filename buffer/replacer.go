@@ -1,12 +1,14 @@
 package buffer
 
+import "bustub/common"
+
 type Replacer interface {
 
-	Victim(frame_id *frame_id_t) bool
+	Victim(frameId *common.FrameId) bool
 
-	Pin(frame_id *frame_id_t)
+	Pin(frameId *common.FrameId)
 
-	Unpin(frame_id *frame_id_t)
+	Unpin(frameId *common.FrameId)
 
 	Size() int
 }
