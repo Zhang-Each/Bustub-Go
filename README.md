@@ -10,8 +10,8 @@ This repo is a golang reproduction of Bustub in the purpose of learning Golang a
 
 ### 2021.12.05
 
-- Create the project files
-- Finish the struct design of **column** and **schema**
+- 创建项目
+- 新增了Column和Schema的实现
 
 
 ### 2021.12.06
@@ -20,3 +20,6 @@ This repo is a golang reproduction of Bustub in the purpose of learning Golang a
 
 ### 2021.12.08
 - 新增Page结构体的定义和Latch抽象类等内容
+
+### 2021.12.10
+- 新增BufferPoolManager/BufferPoolManagerInstance/ParallelBuffer相关类的定义
