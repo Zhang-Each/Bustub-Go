@@ -23,3 +23,6 @@ This repo is a golang reproduction of Bustub in the purpose of learning Golang a
 
 ### 2021.12.10
 - 新增BufferPoolManager/BufferPoolManagerInstance/ParallelBuffer相关类的定义
+
+### 2021.12.11
+- 新增RID和DiskManager的结构体定义
